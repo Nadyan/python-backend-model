@@ -1,7 +1,7 @@
 from typing import List
 from src.domain.models import Users
-from src.infra.config import DBConnectionHandler
-from src.infra.entities import Users as UsersModel
+from src.database.config import DBConnectionHandler
+from src.database.entities import Users as UsersModel
 
 
 class UserRepository:
